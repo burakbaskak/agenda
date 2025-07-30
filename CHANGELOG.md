@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0] - 2025-07-30
+
+### Changed
+- **BREAKING**: Updated MongoDB driver from 4.8.1 to 6.18.0
+- Updated API calls to be compatible with MongoDB 6.x
+- Modified test suite to work with new MongoDB driver API
+- Changed package name to @burakbaskak/agenda
+- Updated repository references
+
+### Fixed
+- Fixed findOneAndUpdate API calls for MongoDB 6.x compatibility
+- Fixed test cases using deprecated toArray callback syntax
+
 ### [6.2.12](https://github.com/hokify/agenda/compare/v6.2.11...v6.2.12) (2022-08-02)
 
 

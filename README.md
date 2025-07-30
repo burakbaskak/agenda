@@ -1,18 +1,18 @@
-# Agenda
+# @burakbaskak/agenda
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/agenda/agenda@master/agenda.svg" alt="Agenda" width="100" height="100">
 </p>
 
 <p align="center">
-  A light-weight job scheduling library for Node.js
+  A light-weight job scheduling library for Node.js with MongoDB 6.x support
 </p>
 
-This was originally a fork of agenda.js,
-it differs from the original version in following points:
+This is a fork of agenda.js with updated MongoDB driver to version 6.18.0.
+It differs from the original version in following points:
 
 - Complete rewrite in Typescript (fully typed!)
-- mongodb4 driver (supports mongodb 5.x)
+- **mongodb 6.18.0 driver (supports MongoDB 6.x)**
 - Supports mongoDB sharding by name
 - touch() can have an optional progress parameter (0-100)
 - Bugfixes and improvements for locking & job processing (concurrency, lockLimit,..)
@@ -75,9 +75,9 @@ _Kudos for making the comparison chart goes to [Bull](https://www.npmjs.com/pack
 
 Install via NPM
 
-    npm install @hokify/agenda
+    npm install @burakbaskak/agenda
 
-You will also need a working [Mongo](https://www.mongodb.com/) database (v4+) to point it to.
+You will also need a working [Mongo](https://www.mongodb.com/) database (v4+ or v6+) to point it to.
 
 # Example Usage
 
