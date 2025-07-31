@@ -1,4 +1,4 @@
-# @burakbaskak/agenda
+# @openfleet/agenda
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/agenda/agenda@master/agenda.svg" alt="Agenda" width="100" height="100">
@@ -75,7 +75,7 @@ _Kudos for making the comparison chart goes to [Bull](https://www.npmjs.com/pack
 
 Install via NPM
 
-    npm install @burakbaskak/agenda
+    npm install @openfleet/agenda
 
 You will also need a working [Mongo](https://www.mongodb.com/) database (v4+ or v6+) to point it to.
 

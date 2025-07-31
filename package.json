@@ -1,5 +1,5 @@
 {
-  "name": "@burakbaskak/agenda",
+  "name": "@openfleet/agenda",
   "version": "1.0.0",
   "description": "Light weight job scheduler for Node.js - Updated MongoDB version",
   "main": "dist/index.js",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/burakbaskak/agenda.git"
+    "url": "git://github.com/openfleet/agenda.git"
   },
   "keywords": [
     "job",
@@ -48,7 +48,7 @@
   "author": "Burak Baskak <burak.baskak@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/burakbaskak/agenda/issues"
+    "url": "https://github.com/openfleet/agenda/issues"
   },
   "dependencies": {
     "cron-parser": "^4.5.0",
